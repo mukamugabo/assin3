@@ -1,0 +1,80 @@
+body{
+	background-color:goldenrod;
+	margin:2em ;
+	padding:1px,0px; 
+	border: 3px solid unset;
+	position: relative;
+}
+header{
+	background-color: white;
+}
+header h1{
+	text-align: center;
+}
+ul{
+	display: flex;
+	margin-left: 2.4em;
+	text-decoration: none;
+		padding-bottom: 10px;
+}
+ul li{
+	background-color:violet;
+	text-decoration: none;
+	display: flex;
+	margin-left: 2.2em;
+
+}
+
+ul li a{
+	text-decoration: none;
+	padding: 5px;
+	cursor: pointer;
+color: white;
+border-radius: 5px;
+/*position: absolute;*/
+margin-right: 10px;
+
+}
+ul li a:hover{
+	background-color:green;
+	color: white;
+	transition: 4s;
+	transition-property: ease in ;
+
+}
+
+footer{
+	background-color:tomato;
+	color:white;
+}
+p{
+	display:inline-flex;
+}
+form{
+border:3px solid blueviolet;
+padding:2em;
+
+}
+
+}
+label{
+	display: block;
+	padding: 3px;
+	font-family: monospace;
+
+}
+input[type="text"]{
+	font-size: 160%;
+/*	box-sizing: 43px;*/
+	border-radius:5px ;
+	border-color:blue;
+	width: 80%;
+
+}
+.display{
+	display:flex;
+}
+
+
+
+
